@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProdukActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/menu_img"
+        android:src="@drawable/cappuchino"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/menu_img"
+        android:layout_alignBottom="@+id/menu_img"
+        android:paddingBottom="15dp"
+        android:paddingTop="10dp"
+        android:background="#79000000"
+        android:gravity="center"
+        android:id="@+id/productname"
+        android:text="@string/dummy_namamenu"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_below="@+id/menu_img"
+        android:id="@+id/textdesc"
+        android:text="@string/deskripsi_produk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"/>
+
+    <TextView
+        android:layout_below="@+id/textdesc"
+        android:id="@+id/textharga"
+        android:text="@string/dummy_harga"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"/>
+
+</RelativeLayout>

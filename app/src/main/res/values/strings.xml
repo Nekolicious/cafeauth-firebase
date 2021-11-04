@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CafeAuth</string>
+    <string name="password_label">Password</string>
+    <string name="username_label">Username</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in_label">Sign In</string>
+    <string name="droid_cafe_label">Droid Cafe</string>
+    <string name="menu_label">Menu</string>
+    <string name="cappuchino_text">Cappuchino</string>
+    <string name="harga_label">Harga</string>
+    <string name="dummy_harga">IDR 20000</string>
+    <string name="dummy_namamenu">Cappuchino</string>
+    <string name="deskripsi_produk">Deskripsi Produk</string>
+</resources>

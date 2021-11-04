@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MenuListAdapter"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/list_img"
+            android:src="@drawable/cappuchino"
+            android:layout_width="match_parent"
+            android:layout_height="190dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_nama"
+            android:layout_alignStart="@+id/list_img"
+            android:layout_alignBottom="@+id/list_img"
+            android:paddingBottom="15dp"
+            android:paddingTop="10dp"
+            android:background="#79000000"
+            android:gravity="center"
+            android:text="@string/dummy_namamenu"
+            android:textStyle="italic"
+            android:textSize="30sp"
+            android:textColor="@color/white" />
+
+
+        <TextView
+            android:layout_below="@+id/list_img"
+            android:id="@+id/textharga"
+            android:text="@string/harga_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="5dp"/>
+
+        <TextView
+            android:layout_below="@+id/textharga"
+            android:id="@+id/list_harga"
+            android:text="@string/dummy_harga"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textAlignment="textEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="5dp"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
