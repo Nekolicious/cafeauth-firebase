@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "374747775267",
+    "project_id": "pamproject-213e8",
+    "storage_bucket": "pamproject-213e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374747775267:android:148aad0a79f43a96530c96",
+        "android_client_info": {
+          "package_name": "lat.pam.cafeauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374747775267-9qevl9vfm7t7o3r2jtjdn77ov176qslo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDND6RfwiVtw-qU738AG_OfomA1ilZGV90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374747775267-9qevl9vfm7t7o3r2jtjdn77ov176qslo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
